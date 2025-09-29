@@ -7,7 +7,8 @@ function ButtonCalculate ({ sign, number }) {
     return (
         <button 
             className={`w-12 flex justify-center items-baseline border border-stone-200 border-solid h-12 rounded-md 
-                       ${sign === '=' ? '!bg-stone-500 text-white' : '!bg-stone-200 text-black'}`}
+            ${sign === '=' ? '!bg-stone-500 text-white hover:!bg-stone-600' 
+                           : '!bg-stone-200 text-black hover:!bg-stone-300'}`}
         >
             {sign}
         </button>
