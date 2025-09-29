@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import CalculaltePage from "./pages/calculate.jsx";
+import CalculaltePage from "./pages/calculate/calculate.jsx";
 
 function App() {
   return (
