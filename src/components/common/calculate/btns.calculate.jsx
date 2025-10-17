@@ -2,7 +2,7 @@
 import ButtonCalculate from "./button.calculate"
 
 function BtnsCalculate () {
-    const calSings = ["%", "CE", "C", "←", "1/x", "x²", "√", "÷", "7", "8", "9", "×", "4", "5", "6", "-", "1", "2", "3", "+", "+/-", "0", ".", "="];
+    const calSings = [ "7", "8", "9", "×", "4", "5", "6", "-", "1", "2", "3", "+", "0", ".", "="];
     
     return (
         <div>
